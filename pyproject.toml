@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "llm_models"
+version = "0.1.0"
+description = ""
+authors = ["Nandhu"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.26.4"
+transformers = "^4.38.1"
+accelerate = "^0.27.2"
+datasets = "^2.18.0"
+trl = "^0.8.3"
+bitsandbytes = "^0.43.1"
+ninja = "^1.11.1.1"
+packaging = "^24.0"
+torch = "^2.2.2"
+peft = "^0.10.0"
+
+[tool.poetry.dev-dependencies]
+ipykernel = "^6.29.3"
+
+[tool.poetry.group.dev.dependencies]
+ipywidgets = "^8.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
